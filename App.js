@@ -183,14 +183,14 @@
  }
  // 🎨 STYLES
  const styles = StyleSheet.create({
-   container: { flex: 1, padding: 20, backgroundColor: '#f5f5f5', marginTop:30 },
-   header: { fontSize:26, fontWeight:'bold', textAlign:'center', marginBottom:10 },
-   scanBtn: { backgroundColor:'#9C27B0', padding:12, borderRadius:8, alignItems:'center', marginBottom:10 },
-   resultBox: { backgroundColor:'#E3F2FD', padding:8, borderRadius:5, marginBottom:10 },
-   input: { borderWidth:1, borderColor:'#ccc', borderRadius:8, padding:10, marginVertical:5, backgroundColor:'#fff' },
-   subHeader: { fontSize:18, fontWeight:'bold', marginTop:20, marginBottom:10 },
-   card: { backgroundColor:'#fff', padding:15, borderRadius:8, marginVertical:5, borderLeftWidth:5, borderLeftColor:'#4CAF50' },
-   actionButtons: { flexDirection:'row', justifyContent:'space-between', marginTop:8 },
-   scannerText: { fontSize:18, color:'white', textAlign:'center', margin:20 },
-   cancelBtn: { backgroundColor:'red', padding:12, borderRadius:8, width:120, alignItems:'center', marginTop:10 }
- });
+  container: { flex: 1, padding: 20, backgroundColor: '#FAFAFA', marginTop: 30 },
+  header: { fontSize: 28, fontWeight: 'bold', textAlign: 'center', marginBottom: 15, color: '#1A1A1A', letterSpacing: 0.5 },
+  subHeader: { fontSize: 19, fontWeight: 'bold', marginTop: 24, marginBottom: 12, color: '#2D3748' },
+  scanBtn: { backgroundColor: '#8E24AA', padding: 14, borderRadius: 10, alignItems: 'center', marginBottom: 12, elevation: 1 },
+  resultBox: { backgroundColor: '#E3F2FD', padding: 12, borderRadius: 8, marginBottom: 12, borderWidth: 1, borderColor: '#BBDEFB' },
+  input: { borderWidth: 1, borderColor: '#E2E8F0', borderRadius: 10, padding: 12, marginVertical: 6, backgroundColor: '#FFFFFF', fontSize: 15, color: '#334155' },
+  card: { backgroundColor: '#FFFFFF', padding: 16, borderRadius: 12, marginVertical: 6, borderLeftWidth: 5, borderLeftColor: '#4CAF50', elevation: 2, shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.1, shadowRadius: 3 },
+  actionButtons: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 12 },
+  scannerText: { fontSize: 18, color: '#FFFFFF', fontWeight: '600', textAlign: 'center', margin: 24 },
+  cancelBtn: { backgroundColor: '#D32F2F', padding: 14, borderRadius: 10, width: 140, alignItems: 'center', marginTop: 15, elevation: 2 }
+});
